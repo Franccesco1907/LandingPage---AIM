@@ -39,12 +39,12 @@ const Footer = ({
             'site-footer-inner',
             topDivider && 'has-top-divider'
           )}>
-          <div className="footer-top space-between text-xxs">
-            <Logo />
+          <div className="footer-top space-between text-xxs"> 
             <FooterSocial />
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
+            <Logo />
             <div className="footer-copyright">Desarrollado por <a>DP2</a>. All right reserved</div>
           </div>
         </div>
