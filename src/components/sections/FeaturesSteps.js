@@ -11,7 +11,7 @@ const propTypes = {
 const defaultProps = {
   ...SectionTilesProps.defaults
 }
-const FeaturesTiles = ({
+const FeaturesSteps = ({
   className,
   topOuterDivider,
   bottomOuterDivider,
@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'Contamos con profesoras de alta calidad dedicadas a tu aprendizaje',
-    paragraph: 'Encuentra a la profesora que se adecue a tus horarios y ritmo de estudio'
+    title: '¿Qué pasos debes seguir?',
+    paragraph: ''
   };
 
   return (
@@ -121,8 +121,7 @@ const FeaturesTiles = ({
                 </div>
               </div>
             </div>
-
-            {/* <div className="tiles-item reveal-from-bottom">
+            <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
@@ -142,9 +141,9 @@ const FeaturesTiles = ({
                   </p>
                 </div>
               </div>
-            </div> */}
+            </div>
 
-            {/* <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
@@ -164,9 +163,9 @@ const FeaturesTiles = ({
                   </p>
                 </div>
               </div>
-            </div> */}
+            </div>
 
-            {/* <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
@@ -186,7 +185,29 @@ const FeaturesTiles = ({
                   </p>
                 </div>
               </div>
-            </div> */}
+            </div>
+
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
+              <div className="tiles-item-inner">
+                <div className="features-tiles-item-header">
+                  <div className="features-tiles-item-image mb-16">
+                    <Image
+                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
+                      alt="Features tile icon 06"
+                      width={64}
+                      height={64} />
+                  </div>
+                </div>
+                <div className="features-tiles-item-content">
+                  <h4 className="mt-0 mb-8">
+                    Diana Alarcón  
+                  </h4>
+                  <p className="m-0 text-sm">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  </p>
+                </div>
+              </div>
+            </div>
 
           </div>
         </div>
@@ -195,7 +216,7 @@ const FeaturesTiles = ({
   );
 }
 
-FeaturesTiles.propTypes = propTypes;
-FeaturesTiles.defaultProps = defaultProps;
+FeaturesSteps.propTypes = propTypes;
+FeaturesSteps.defaultProps = defaultProps;
 
-export default FeaturesTiles;
+export default FeaturesSteps;

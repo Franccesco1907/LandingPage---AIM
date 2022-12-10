@@ -16,11 +16,10 @@
 
 // Hero illustration
 .illustration-section-01::after {
-	@include illustration('ninaEstudiando.webp', 100%, 100%, center);
+	@include illustration('ninaEstudiando.webp', 100%, 115%, center);
 	background-size: cover;
 	filter: brightness(50%);  
 	background-position: center center;
- 
 }
 
 // Features illustration 02

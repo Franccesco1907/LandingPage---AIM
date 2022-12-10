@@ -3,8 +3,6 @@ import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
-import Image from '../elements/Image';
-import Modal from '../elements/Modal';
 
 const propTypes = {
   ...SectionProps.types
@@ -57,7 +55,7 @@ const Hero = ({
       {...props}
       className={outerClasses}
     >
-      <div className="illustration-section-01 mb-16">
+      <div className="illustration-section-01">
         <div className={innerClasses}>
           <div className="hero-content" >
             <h1 className="mt-0 mb-32 reveal-from-bottom" data-reveal-delay="200">
@@ -69,7 +67,7 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
+                  <Button tag="a" color="primary" wideMobile href="https://inf227i1.inf.pucp.edu.pe/account/login">
                     Iniciar
                   </Button>
                 </ButtonGroup>

@@ -19,19 +19,19 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <Link to="#0">Sobre nosotros</Link>
+          <Link to="#0" style={{'color': '#FFFFFF'}}>Sobre nosotros</Link>
         </li>
         <li>
-          <Link to="#0">Ayuda</Link>
+          <Link to="#0" style={{'color': '#FFFFFF'}}>Ayuda</Link>
         </li>
         <li>
-          <Link to="#0">Política de privacidad</Link>
+          <Link to="#0" style={{'color': '#FFFFFF'}}>Política de privacidad</Link>
         </li>
         <li>
-          <Link to="#0">Política de cookies</Link>
+          <Link to="#0" style={{'color': '#FFFFFF'}}>Política de cookies</Link>
         </li>
         <li>
-          <Link to="#0">Configuración de Cookies</Link>
+          <Link to="#0" style={{'color': '#FFFFFF'}}>Configuración de Cookies</Link>
         </li>
       </ul>
     </nav>
