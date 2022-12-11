@@ -70,7 +70,7 @@ const FeaturesSplit = ({
                   Matemáticas
                   </h3>
                 <p className="m-0">
-                  Aquí encontraras ayuda de los diversos temas relacionados como:
+                  Aquí encontrarás ayuda de los diversos temas relacionados como:
                 </p>
                 <ul>
                   <li> Aritmética </li>
@@ -100,7 +100,7 @@ const FeaturesSplit = ({
                   Comunicación
                   </h3>
                 <p className="m-0">
-                  Aquí encontraras ayuda de los diversos temas relacionados como:
+                  Aquí encontrarás ayuda de los diversos temas relacionados como:
                 </p>
                 <ul>
                   <li> Lenguaje </li>
@@ -128,7 +128,7 @@ const FeaturesSplit = ({
                   Ciencias
                   </h3>
                 <p className="m-0">
-                  Aquí encontraras ayuda de los diversos temas relacionados como:
+                  Aquí encontrarás ayuda de los diversos temas relacionados como:
                 </p>
                 <ul>
                   <li> Química </li>

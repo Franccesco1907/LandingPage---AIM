@@ -72,7 +72,7 @@ const FeaturesTiles = ({
                     Pilar Llantoy
                     </h4>
                   <p className="m-0 text-sm">
-                    Soy alunma de la carrera de Educación de la Universidad de Lima. Me gusta ayudar y enseñar 
+                    Soy alumna de la carrera de Educación de la Universidad de Lima. Me gusta ayudar y enseñar 
                     de formas novedosas y efectivas, de manera que el alumno logre sus objetivos
                   </p>
                 </div>
@@ -118,7 +118,7 @@ const FeaturesTiles = ({
                     Claudia Zapata
                     </h4>
                   <p className="m-0 text-sm">
-                    Curso el 7mo ciclo de la carrera de Sociología en la UNMSM y me gusta enseñar, específicamente cursos relacionados a historia del Perú e historia universal. 
+                    Curso el 7mo ciclo de la carrera de Sociología en la UNMSM y me gusta enseñar, específicamente cursos relacionados a historia del Perú e historia universal
                   </p>
                 </div>
               </div>
