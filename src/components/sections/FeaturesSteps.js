@@ -56,160 +56,103 @@ const FeaturesSteps = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
-          <div className={tilesClasses}>
+          <table>
+            <tr style={{'border': 'none'}}>
 
+            <th className="centrado">
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
-                <div className="features-tiles-item-image mb-16">
+                <div className='number'>
+                  <div className="blue"><h1 className='blue'>1</h1></div>
+                </div>
+                <div className="center-content">
+                  <h4 className="mt-0 mb-8">
+                    Busca tu curso
+                    </h4>
+                  <p >
+                    Entre nuestros miles de profesores, encontrarás a tu profesor ideal. Se adaptará a tus necesidades y te ayudará a alcanzar tus objetivos
+                  </p> 
+                    <Image
+                      src={require('./../../assets/images/curso.png')}
+                      alt="Features split 03"
+                      width={528}
+                      height={396} />
+                </div> 
+              </div>
+            </div>
+            </th>
+
+            <th className="centrado">
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
+              <div className="tiles-item-inner">
+                <div className='number'>
+                  <div className="blue"><h1 className='blue'>2</h1></div>
+                </div>
+                <div className="center-content">
+                  <h4 className="mt-0 mb-8">
+                    Escoge una profesora
+                    </h4>
+                  <p >
+                    Entre nuestros miles de profesores, encontrarás a tu profesor ideal. Se adaptará a tus necesidades y te ayudará a alcanzar tus objetivos.
+                  </p>
                   <Image
-                  src={require('./../../assets/images/profesora1.png')}
-                  alt="Features split 01"
-                  width={528}
-                  height={396} />
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Pilar Llantoy
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/profesora2.png')}
-                      alt="Features tile icon 02"
+                      src={require('./../../assets/images/escoge-profesora.png')}
+                      alt="Features split 03"
                       width={528}
                       height={396} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Gabriela Hernandez
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
                 </div>
               </div>
             </div>
+            </th>
 
+            <th  className="centrado">
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/profesora3.png')}
-                      alt="Features tile icon 02"
+                <div className='number'>
+                  <div className="blue"><h1 className='blue'>3</h1></div>
+                </div>
+                <div className="center-content">
+                  <h4 className="mt-0 mb-8">
+                    Escoge un horario
+                    </h4>
+                  <p >
+                    Escoge un profesor online según tu disponibilidad horaria y disfruta de la flexibilidad de las clases en línea
+                  </p>
+                  <Image
+                      src={require('./../../assets/images/horario.png')}
+                      alt="Features split 03"
                       width={528}
                       height={396} />
-                  </div>
                 </div>
-                <div className="features-tiles-item-content">
+              </div>
+            </div>
+            </th>
+
+            <th className="centrado">
+            <div className="tiles-item reveal-from-bottom" data-reveal-delay="600">
+              <div className="tiles-item-inner">
+                <div className='number'>
+                  <div className="blue"><h1 className='blue'>4</h1></div>
+                </div>
+                <div className="enter-content">
                   <h4 className="mt-0 mb-8">
-                    Claudia Zapata
+                    Reúnete con tu profesora
                     </h4>
-                  <p className="m-0 text-sm">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                  <p >
+                    Nuestra aula virtual tiene todo lo necesario para que realices las clases: Videoconferencia, pizarra, edición de documentos online...
                   </p>
+                  <Image
+                      src={require('./../../assets/images/reunete.png')}
+                      alt="Features split 03"
+                      width={528}
+                      height={396} />
                 </div>
               </div>
             </div>
-            <div className="tiles-item reveal-from-bottom">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-04.svg')}
-                      alt="Features tile icon 04"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Fiorella Chavez
-                    </h4>
-                  <p className="m-0 text-sm">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-05.svg')}
-                      alt="Features tile icon 05"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Micaela Bastidas
-                  </h4>
-                  <p className="m-0 text-sm">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
-                      alt="Features tile icon 06"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Diana Alarcón  
-                  </h4>
-                  <p className="m-0 text-sm">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
-              <div className="tiles-item-inner">
-                <div className="features-tiles-item-header">
-                  <div className="features-tiles-item-image mb-16">
-                    <Image
-                      src={require('./../../assets/images/feature-tile-icon-06.svg')}
-                      alt="Features tile icon 06"
-                      width={64}
-                      height={64} />
-                  </div>
-                </div>
-                <div className="features-tiles-item-content">
-                  <h4 className="mt-0 mb-8">
-                    Diana Alarcón  
-                  </h4>
-                  <p className="m-0 text-sm">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-          </div>
+            </th>
+            
+            </tr>
+          </table>
         </div>
       </div>
     </section>

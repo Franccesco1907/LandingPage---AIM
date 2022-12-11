@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import ButtonGroup from '../elements/ButtonGroup';
+import Button from '../elements/Button';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -111,7 +113,11 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-light button-wide-mobile button-sm" onClick={closeMenu}>Iniciar Sesión</Link>
+                        <ButtonGroup>
+                          <Button tag="a" color="light" wideMobile href="https://inf227i1.inf.pucp.edu.pe/account/login">
+                            Iniciar Sesión
+                          </Button>
+                        </ButtonGroup>                      
                       </li>
                     </ul>}
                 </div>
