@@ -56,10 +56,7 @@ const FeaturesSteps = ({
       <div className="container">
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
-          <table>
-            <tr style={{'border': 'none'}}>
-
-            <th className="centrado">
+          <div className="contenido">
             <div className="tiles-item reveal-from-bottom">
               <div className="tiles-item-inner">
                 <div className='number'>
@@ -80,9 +77,7 @@ const FeaturesSteps = ({
                 </div> 
               </div>
             </div>
-            </th>
 
-            <th className="centrado">
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
               <div className="tiles-item-inner">
                 <div className='number'>
@@ -103,9 +98,7 @@ const FeaturesSteps = ({
                 </div>
               </div>
             </div>
-            </th>
 
-            <th  className="centrado">
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="400">
               <div className="tiles-item-inner">
                 <div className='number'>
@@ -126,9 +119,7 @@ const FeaturesSteps = ({
                 </div>
               </div>
             </div>
-            </th>
 
-            <th className="centrado">
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="600">
               <div className="tiles-item-inner">
                 <div className='number'>
@@ -149,10 +140,7 @@ const FeaturesSteps = ({
                 </div>
               </div>
             </div>
-            </th>
-            
-            </tr>
-          </table>
+          </div> 
         </div>
       </div>
     </section>
