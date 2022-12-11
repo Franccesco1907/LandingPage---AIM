@@ -88,7 +88,7 @@ const FeaturesSteps = ({
                     Escoge una profesora
                     </h4>
                   <p >
-                    Entre nuestros miles de profesores, encontrarás a tu profesor ideal. Se adaptará a tus necesidades y te ayudará a alcanzar tus objetivos.
+                    Entre nuestros miles de profesores, encontrarás a tu profesor ideal. Se adaptará a tus necesidades y te ayudará a alcanzar tus objetivos
                   </p>
                   <Image
                       src={require('./../../assets/images/escoge-profesora.png')}
@@ -125,7 +125,7 @@ const FeaturesSteps = ({
                 <div className='number'>
                   <div className="blue"><h1 className='blue'>4</h1></div>
                 </div>
-                <div className="enter-content">
+                <div className="center-content">
                   <h4 className="mt-0 mb-8">
                     Reúnete con tu profesora
                     </h4>

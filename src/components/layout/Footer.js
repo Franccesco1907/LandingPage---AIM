@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import Logo from './partials/Logo';
 import FooterNav from './partials/FooterNav';
-import FooterSocial from './partials/FooterSocial';
 
 const propTypes = {
   topOuterDivider: PropTypes.bool,
@@ -39,13 +38,10 @@ const Footer = ({
             'site-footer-inner',
             topDivider && 'has-top-divider'
           )}>
-          <div className="footer-top space-between text-xxs"> 
-            <FooterSocial />
-          </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
             <Logo />
-            <div className="footer-copyright">Desarrollado por <a>DP2</a>. All right reserved</div>
+            <div className="footer-copyright">Desarrollado por <a>DP2</a>. Derechos reservados</div>
           </div>
         </div>
       </div>
